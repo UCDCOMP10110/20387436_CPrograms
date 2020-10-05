@@ -17,6 +17,7 @@ int main(void)
 
   if (diff_x> 0 && diff_y > 0)
     {
+      Go(1);
       printf("R ");
       Go(diff_x);
       printf("R ");
@@ -24,6 +25,7 @@ int main(void)
     }
     if (diff_x>0 && diff_y < 0)
     {
+      Go(1);
       printf("L ");
       Go(-diff_x);
       printf("L ");
@@ -31,6 +33,7 @@ int main(void)
     }
     if (diff_x<0 && diff_y > 0)
     {
+      Go(1);
       printf("L ");
       Go(-diff_x);
       printf("L ");
@@ -38,6 +41,7 @@ int main(void)
     }
     if (diff_x<0 && diff_y < 0)
     {
+      Go(1);
       printf("L ");
       Go(-diff_x);
       printf("R ");
