@@ -7,10 +7,10 @@ int main(void)
   int sx , sy , dx , dy ;
   int diff_x , diff_y;
 
-  sx = 4;
-  sy = 1;
+  sx = 2;
+  sy = 5;
   dx = 3;
-  dy = 5;
+  dy = 7;
 
   diff_x = dx - sx;
   diff_y = dy - sy;
