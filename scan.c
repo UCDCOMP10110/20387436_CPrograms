@@ -1,11 +1,16 @@
 #include <stdio.h>
 
-int main(void)
+int maain(void)
 {
-  double f;
+double f;
+int i;
 
-  printf("Please enter a floating point number : ");
-  scanf("%lf" , &f);
-  printf("The square of the number entered is %lf \n" , f*f);
-  return 0;
+printf("Please enter an integer value : ");
+scanf("%d" , &i);
+printf("Please enter a floating point number value : \n");
+scanf("%lf" , &f);
+printf("The product of the numbers is %lf \n" , f*i);
+
+
+return 0;
 }
