@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int maain(void)
+int main(void)
 {
 double f;
 int i;
