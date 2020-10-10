@@ -7,7 +7,7 @@ int i;
 
 printf("Please enter an integer value : ");
 scanf("%d" , &i);
-printf("Please enter a floating point number value : \n");
+printf("Please enter a floating point number value : ");
 scanf("%lf" , &f);
 printf("The product of the numbers is %lf \n" , f*i);
 
